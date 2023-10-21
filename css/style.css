@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(221, 218, 218);
+}
+.head{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.head h1{
+    padding-top: 10px;
+    font-size: 30px;
+    color: #333;
+    font-family: cursive;
+    font-weight: bolder;
+}
+#game {
+    margin: 50px auto;
+    margin-top: 10px;
+    padding: 20px;
+    border: 2px solid #333;
+    width: fit-content;
+    background-color: white;
+}
+.active {
+    font-weight: bold;
+    color: red;
+}
+.pics{
+    display: none;
+    width: fit-content;
+}
+.player{
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+}
