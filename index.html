@@ -14,15 +14,15 @@
 
 <body>
     <div class="head">
-    <img src="image/dice 2.png" alt="">
-    <h1>Pig Dice Game</h1>
-</div>
+        <img src="image/dice 2.png" alt="">
+        <h1>Pig Dice Game</h1>
+    </div>
     <div id="game">
         <div class="player">
             <p class="active">Player 1: <span id="player1Score">0</span></p>
             <p>Player 2: <span id="player2Score">0</span></p>
         </div>
-       
+
 
         <p>Current Score: <span id="currentScore">0</span></p>
         <div class="album" style="padding-bottom: 10px;">
@@ -34,10 +34,22 @@
             <img src="image/dice 6.png" alt="" id="pic6" class="pics">
         </div>
 
-        
+
         <button id="rollButton">Roll Dice</button>
         <button id="holdButton">Hold</button>
         <button id="newGameButton">New Game</button>
+
+
+        <div class="game-rule">
+            <h6 class="rules">Rules of the game</h6>
+            <ol>
+                <li>click on roll dice to play</li>
+                <li>click on Hold to switch to the next player's turn</li>
+                <li>click on new game to restart the game</li>
+            </ol>
+            <p><span class="text-danger">Note:</span> The first player to reach 100 wins the game</p>
+            <p class="text-danger text-center">GOODLUCK!!!</p>
+        </div>
     </div>
 
 </body>

@@ -36,3 +36,12 @@ body {
     justify-content: space-between;
     font-size: large;
 }
+.game-rule{
+    text-align: left;
+    padding-top: 50px;
+}
+.rules{
+    text-decoration: underline;
+    font-size: large;
+    font-weight: bolder;
+}
